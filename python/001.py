@@ -26,8 +26,6 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 import sys
 
-
-
 # a1) trivial brute force approach, simply iterate on a loop, c style
 def easySum(upper_limit):
     answer = 0
@@ -60,7 +58,7 @@ def gaussTrickSum(upper_limit):
 
 if __name__ == "__main__":
 
-    # usage..  p001.py upper_bound method {'easy' | 'pythonic' | 'gauss'}
+    # usage..  001.py upper_bound method{'easy' | 'pythonic' | 'gauss'}
 
     try:
         input_value = int(sys.argv[1])

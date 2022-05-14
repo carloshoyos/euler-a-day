@@ -10,5 +10,62 @@ previous two terms. By starting with 1 and 2, the first 10 terms will be:
 Find the sum of all the even-valued terms in the sequence which do not
 exceed four million.
 """
+# Fairly easy again.  The direct approach is straightforward. Fibonacci is fascinating, so many alternative fomulas. (See here: https://mathworld.wolfram.com/FibonacciNumber.html) 
+# will try a formula approach next time.  For now, I did a "calculate all numbers" vs "calculate only  the even numbers"
+
+## performance
+#  modern computers are really good at adding, so both methods take execution time 0.  For kicks, had to go to really large inputs to find that the even only number calculation is about 4x faster. 
+## n -      easySum      evenSum      
+## 10^2488     0.024       0.006        
+## 10^5000     0.080       0.02
+        
+import sys
+
+# a) the direct approach is fairly simple, just generate each fib number and keep a rolling sum of even numbers
+def simpleSum(upper_limit):
+	sum = 0
+	f1 = 1  
+	f2 = 2 
+	while f1 <= upper_limit:
+		if f1 % 2 == 0:
+			sum += f1
+		f1, f2 = f2, f1 + f2
+	print(sum)
+
+# b) only thirdsSum. we know that every 3rd number is even. Using these formulas we can calculate every 3rd fib number (which saves us from doing the mod equation): 
+###  fn+2 = fn+1 + fn 
+###  fn+2 = 2fn + fn-1
+###  fn+2 = 3fn-2 + 2fn-1
+def evenSum(upper_limit):
+	sum = 0
+	f1 = 1  
+	f2 = 2
+	while f2 <= upper_limit:
+		sum += f2
+		f1, f2 = f1 + 2*f2, 2 * f1 + 3 * f2
+	print(sum)
 
 
+
+
+if __name__ == "__main__":
+
+    # usage..  002.py upper_bound method{'easy' | 'pythonic' | 'gauss'}
+
+
+    try:
+        input_value = int(sys.argv[1])
+        method_to_use = sys.argv[2]
+    except IndexError:
+        input_value = 4000000      # run with default input 1000 
+        method_to_use = 'easy'  # and use default easy method if none provided
+
+
+    if method_to_use == 'easy':
+        simpleSum(input_value)
+
+    if method_to_use == 'even':
+        evenSum(input_value)    
+
+    # if method_to_use == 'formula':
+    #     formulaSum(input_value)    

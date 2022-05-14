@@ -42,4 +42,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | Problem       | Python        | C  | Difficulty |  Notes |  
 | ------------- | ------------- |------------- |------------- |------------- |
 | [001](https://projecteuler.net/problem=1)  | [001.py](python/001.py) | | **Easy** | Problem wasn't hard, took time to set up profiling, github etc.  Brute force approach worked for default input but won't scale for larger inputs. One finding: Naive approach worked better than pythonic code.  |
-
+| [002](https://projecteuler.net/problem=2)  | [002.py](python/002.py) | | **Easy** | So many formulas for Fibonacci additions, I barely got to try one optimization but a lot more there.  Computers are really good at adding large numbers, so not worth optimizing further. |
