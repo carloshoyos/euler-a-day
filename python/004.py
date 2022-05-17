@@ -20,8 +20,8 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 # a) brute force all solutions.  a simpler optimization, compute only pairs whene a <= b to remove duplicate pairs (since a * b == b * a) 
 def compute():
     answer = 0  # assuming there is an answer, otherwise it will return 0
-    for a in range(101, 10000):
-        for b in range(a, 10000):
+    for a in range(101, 1000):
+        for b in range(a, 1000):
             if str(a * b) == str(a * b)[ : : -1] and a * b > answer:
                 answer = a * b
     
@@ -31,8 +31,8 @@ def compute():
 # b) Same as above but a more "pythonic" solution.  The performance between these two is the same, but for much larger numbers 
 def compute_pythonic():
 	answer = max(i * j
-		for i in range(101, 10000)
-		for j in range(i, 10000)
+		for i in range(101, 1000)
+		for j in range(i, 1000)
 		if str(i * j) == str(i * j)[ : : -1])
 	return str(answer)
 
