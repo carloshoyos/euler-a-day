@@ -17,7 +17,7 @@ from 1 to 20?
 
 ## performance
 #  gcd (euclid's algorithm) should be O(n) https://en.wikipedia.org/wiki/Euclidean_algorithm#Algorithmic_efficiency although for larger digits the % operation will have a bigger impact. 
-#  the factorize method is not very efficient in this implementation as we iterate through all numbers. 
+#  the factorize method is not very efficient in this implementation as we iterate through all numbers. cd pcd
 ## n -      GCD      factorize    
 ## 10000     0.038   3.902          
 ## 20000     0.124   13.954      
