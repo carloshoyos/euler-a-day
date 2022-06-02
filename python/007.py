@@ -30,6 +30,7 @@ def sieve_for_primes_to(n):
     prime_list = [x for x in prime_list if x > 1]
     return prime_list
 
+# this was done in problem 10 
 def generate_primes(upper_bound):
     # TODO, implement this
     # keep a list of primes, first time its called yield 2 and initialize the list with [2] and go to next odd number (3)

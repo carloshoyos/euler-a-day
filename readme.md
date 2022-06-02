@@ -28,13 +28,11 @@ Solving these problems requires:  1- Understand the math problem and translating
 # Principles I'm following # 
 
 - Cap work at Max 1 hour x day, weekends off. 
-- Googling is ok, but don't look at someone else's solution.  
-- Commit before checking the work at euler project site and looking at their amazing answers and forum. What you see is what I thought before seeing the answers. 
+- Googling general concepts (research) is ok, but don't look at others solution to the problem.  
+- Commit before checking the work at euler project site and looking at their amazing answers and forum. What you see are my thoughts before seeing the answers. 
 - Explanation on approach, pitfalls, performance and thoughts in the comments of each solution 
-- Write simplest solution first, then expand to a more optimized one.  Simplest might mean "brute force" cause computers are fast.  
-- Run performance analysis for each solution.  
-- Include optional parameters to overwrite the input or select different solution approach.   
-- For most solutions that have a numeric input, run it with larger numbers to understand how it scales. 
+- Write simplest solution first, then expand to a more optimized one.  Simplest is usually the "brute force approach" as  computers are fast.   
+- Run problem for a range of inputs to evaluate performance analysis and scale as appropriate.
 
 
 
@@ -51,3 +49,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [007](https://projecteuler.net/problem=7)  | [007.py](python/007.py) | | **Easy** | Direct implemenation of a sieve of Erathostenes, and an idea to use a generator which is better suited for this problem.  There's a lot more to optimize here, but will revisit later.   |
 | [008](https://projecteuler.net/problem=8)  | [008.py](python/008.py) | | **Easy** | straightforward problem. Good oppoortunity to start with a c style approach and transform to a pythonic one (I got half way there, I'm sure this one can further be compressed).  Pythonic doesn't perform as well as plainly iteratively but for these challenges that doesn't matter.  |
 | [009](https://projecteuler.net/problem=9)  | [009.py](python/009.py) | | **Easy** | Fastest problem to solve, done in 2 minutes.  Really simple brute force approach. There are other ways to optimize to be worked on. |
+| [010](https://projecteuler.net/problem=10)  | [010.py](python/010.py) | | **Easy** | Two solutions - a prime generating function and a sieve approach - sieve is much faster. |
