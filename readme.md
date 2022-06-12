@@ -51,3 +51,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [009](https://projecteuler.net/problem=9)  | [009.py](python/009.py) | | **Easy** | Fastest problem to solve, done in 2 minutes.  Really simple brute force approach. There are other ways to optimize to be worked on. |
 | [010](https://projecteuler.net/problem=10)  | [010.py](python/010.py) | | **Easy** | Two solutions - a prime generating function and a sieve approach - sieve is much faster. |
 | [011](https://projecteuler.net/problem=11)  | [011.py](python/011.py) | | **Easy** | Not a lot of math, just an observation that you only have to check 4 directions. |
+| [012](https://projecteuler.net/problem=12)  | [012.py](python/012.py) | | **Easy** | Reusing prime generator and factorizing by primes  | 
