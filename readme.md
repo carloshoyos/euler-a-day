@@ -52,3 +52,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [010](https://projecteuler.net/problem=10)  | [010.py](python/010.py) | | **Easy** | Two solutions - a prime generating function and a sieve approach - sieve is much faster. |
 | [011](https://projecteuler.net/problem=11)  | [011.py](python/011.py) | | **Easy** | Not a lot of math, just an observation that you only have to check 4 directions. |
 | [012](https://projecteuler.net/problem=12)  | [012.py](python/012.py) | | **Easy** | Reusing prime generator and factorizing by primes  | 
+| [013](https://projecteuler.net/problem=13)  | [013.py](python/013.py) | | **Easy** | Thanks to Python's int, this can be calculated in one line with no data type headaches  | 
