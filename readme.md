@@ -55,3 +55,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [013](https://projecteuler.net/problem=13)  | [013.py](python/013.py) | | **Easy** | Thanks to Python's int, this can be calculated in one line with no data type headaches  | 
 | [014](https://projecteuler.net/problem=14)  | [014.py](python/014.py) | | **Easy** | Two solutions - easy brute force (i.e. calculate each number's sequence), and one caching previous results that is way faster.  | 
 | [015](https://projecteuler.net/problem=15)  | [015.py](python/015.py) | | **Easy** | Real nice math problem - easy to visualize the relationship between paths and pascal triangle and combinatorics.  This is such a rich area of "play math" with real world applications.  | 
+| [016](https://projecteuler.net/problem=16)  | [016.py](python/016.py) | | **Easy** | This is so easy with Python's data types.  | 
