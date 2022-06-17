@@ -56,4 +56,5 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [014](https://projecteuler.net/problem=14)  | [014.py](python/014.py) | | **Easy** | Two solutions - easy brute force (i.e. calculate each number's sequence), and one caching previous results that is way faster.  | 
 | [015](https://projecteuler.net/problem=15)  | [015.py](python/015.py) | | **Easy** | Real nice math problem - easy to visualize the relationship between paths and pascal triangle and combinatorics.  This is such a rich area of "play math" with real world applications.  | 
 | [016](https://projecteuler.net/problem=16)  | [016.py](python/016.py) | | **Easy** | This is so easy with Python's data types.  | 
-| [017](https://projecteuler.net/problem=17)  | [017.py](python/017.py) | | **Easy** |  Not a hard problem but oh boy a lot of prep coding :(  | 
+| [017](https://projecteuler.net/problem=17)  | [017.py](python/017.py) | | **Easy** |  Not a hard problem but some prep needed writing numbers in english :(  | 
+| [018](https://projecteuler.net/problem=18)  | [018.py](python/018.py) | | **Easy** |  Good advice in problem description, instead of brute force, calculate bottom up max value line by line  | 
