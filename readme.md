@@ -59,3 +59,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [017](https://projecteuler.net/problem=17)  | [017.py](python/017.py) | | **Easy** |  Not a hard problem but some prep needed writing numbers in english :(  | 
 | [018](https://projecteuler.net/problem=18)  | [018.py](python/018.py) | | **Easy** |  Good advice in problem description, instead of brute force, calculate bottom up max value line by line  | 
 | [019](https://projecteuler.net/problem=19)  | [019.py](python/019.py) | | **Easy** | Super easy to code although not good, could be generalized  | 
+| [020](https://projecteuler.net/problem=20)  | [020.py](python/020.py) | | **Easy** | Python makes this so easy / one liner in 2 minutes coding time. Super easy.   | 
