@@ -60,3 +60,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [018](https://projecteuler.net/problem=18)  | [018.py](python/018.py) | | **Easy** |  Good advice in problem description, instead of brute force, calculate bottom up max value line by line  | 
 | [019](https://projecteuler.net/problem=19)  | [019.py](python/019.py) | | **Easy** | Super easy to code although not good, could be generalized  | 
 | [020](https://projecteuler.net/problem=20)  | [020.py](python/020.py) | | **Easy** | Python makes this so easy / one liner in 2 minutes coding time. Super easy.   | 
+| [021](https://projecteuler.net/problem=21)  | [021.py](python/021.py) | | **Easy** | A simple brute force approach worked better than my initial idea of using primes and divisors from problem 12. Sometimes easier brute force is better.   | 
