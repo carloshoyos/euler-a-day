@@ -9,7 +9,7 @@ I love math and coding, and want to see how far I can get solving [Project Euler
 
 ## Motivation ##
 
-After one year of a daily work out routine, the results have been extraordinary.  It might not feel like a big effort, but it took many false starts to get here.  Boils down to **"do a little bit every day"**.  
+In the last year I have built an exercise routine where the habit of daily work outs has become entrenched with extraordinary results.  Thnking about previous false starts, the key for success boils down to **"do a little bit every day"**.  
 
 This is my attempt at building a similar habit for math + coding.   Why? 
 
@@ -21,9 +21,11 @@ This is my attempt at building a similar habit for math + coding.   Why?
 
 ## Why am I sharing my solutions? ## 
 
-If you are looking for a solution to a problem, there are many places out there that will list them.   So, I don't think I'm spoiling it. 
+Euler project is ok with sharing the first 100 solutions, and this keep me accountable. Plus, there are many other solutions repo out there.  
 
-Solving these problems requires:  1- Understand the math problem and translating it into a formula or approach.  2- Convert this appraoch into a coded algorithm to be evaluated.  I claim there's a third step: reflection.   Most of these problems will have more than one way to be solved, leadig to trade offs.  What can I learn from solving these problems in multipe ways? 
+I expect to provide insights as I go along.  After problem 100, I'll only include the insights but not the solution.
+
+Solving these problems requires:  1- Understand the math problem and translating it into a formula or approach.  2- Convert this appraoch into a coded algorithm to be evaluated. 3- reflection.   Most of these problems will have more than one way to be solved, leadig to trade offs.  What can I learn from solving these problems in different ways?  
 
 # Principles I'm following # 
 
@@ -35,11 +37,10 @@ Solving these problems requires:  1- Understand the math problem and translating
 - Run problem for a range of inputs to evaluate performance analysis and scale as appropriate.
 
 
-
 # List of problems # 
 
-| Problem       | Python        | C  | Difficulty |  Notes |  
-| ------------- | ------------- |------------- |------------- |------------- |
+| Problem       | Python        | C  | Difficulty |  Notes |  Keyword | 
+| ------------- | ------------- |------------- |------------- |------------- |------------- |
 | [001](https://projecteuler.net/problem=1)  | [001.py](python/001.py) | | **Easy** | Problem wasn't hard, took time to set up profiling, github etc.  Brute force approach worked for default input but won't scale for larger inputs. One finding: Naive approach worked better than pythonic code.  |
 | [002](https://projecteuler.net/problem=2)  | [002.py](python/002.py) | | **Easy** | So many formulas for Fibonacci additions, Barely got to try one optimization but a lot more there.  Computers are really good at adding large numbers, so not worth optimizing further. |
 | [003](https://projecteuler.net/problem=3)  | [003.py](python/003.py) | | **Easy** | The brute force approach can be optimized by reducing the # of factors to try. There are other algorithms like Pollard's algorithm which performs substantially better for larger numbers. |
@@ -61,5 +62,6 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [019](https://projecteuler.net/problem=19)  | [019.py](python/019.py) | | **Easy** | Super easy to code although not good, could be generalized  | 
 | [020](https://projecteuler.net/problem=20)  | [020.py](python/020.py) | | **Easy** | Python makes this so easy / one liner in 2 minutes coding time. Super easy.   | 
 | [021](https://projecteuler.net/problem=21)  | [021.py](python/021.py) | | **Easy** | A simple brute force approach worked better than my initial idea of using primes and divisors from problem 12. Sometimes easier brute force is better.   | 
-| [022](https://projecteuler.net/problem=22)  | [022.py](python/022.py) | | **Easy** | Easy iteration coding - example of c style vs pythonic coding.   | 
-| [023](https://projecteuler.net/problem=23)  | [023.py](python/023.py) | | **Easy** | A good building block came from problem 21.    | 
+| [022](https://projecteuler.net/problem=22)  | [022.py](python/022.py) | | **Easy** | Easy iteration coding - example of c style vs pythonic coding.   | dictionary sorting, unicode character value |
+| [023](https://projecteuler.net/problem=23)  | [023.py](python/023.py) | | **Easy** | A good building block came from problem 21.    | divisors | 
+| [024](https://projecteuler.net/problem=24)  | [024.py](python/024.py) | | **Easy** | Two implementations, brute force and deducing a formula. Performance is the same for smaller numbers, but the formula scales much better for large numbers.    | itertools. |
