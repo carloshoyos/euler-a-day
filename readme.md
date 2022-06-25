@@ -67,3 +67,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [024](https://projecteuler.net/problem=24)  | [024.py](python/024.py) | | **Easy** | Two implementations, brute force and deducing a formula. Performance is the same for smaller numbers, but the formula scales much better for large numbers.    | itertools. |
 | [025](https://projecteuler.net/problem=25)  | [025.py](python/025.py) | | **Easy** | Super simple, reusing Fibonacci formula and a counter. | Fibonacci |
 | [026](https://projecteuler.net/problem=26)  | [026.py](python/026.py) | | **Easy** | Simple, iterating on a division and reminder algorithm. | Divison |
+| [027](https://projecteuler.net/problem=27)  | [027.py](python/027.py) | | **Easy** | This can be solved straightforward by evaluating the solution space. | Primes, polynomial |
