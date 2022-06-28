@@ -70,3 +70,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [027](https://projecteuler.net/problem=27)  | [027.py](python/027.py) | | **Easy** | This can be solved straightforward by evaluating the solution space. | Primes, polynomial |
 | [028](https://projecteuler.net/problem=28)  | [028.py](python/028.py) | | **Easy** | Two approaches, brute force and deriving a formula. Good example of how there are 2 ways to solve these problems | arrays, sums |
 | [029](https://projecteuler.net/problem=29)  | [029.py](python/029.py) | | **Easy** | Thanks to Python's auto number type, this was trivial to solve, done in less than a minute |
+| [030](https://projecteuler.net/problem=30)  | [030.py](python/030.py) | | **Easy** | Once you estimate an upper bound for this problem, the code is trivial to write.   |
