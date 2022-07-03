@@ -74,3 +74,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [031](https://projecteuler.net/problem=31)  | [031.py](python/031.py) | | **Easy+** | Multipe ways to solve the change problem, using recursion and dynamic programing.   | recursion, dynamic programming | 
 | [032](https://projecteuler.net/problem=32)  | [032.py](python/032.py) | | **Easy+** | Brute force works here since the solution space is small.   | pandigital, divisors | 
 | [033](https://projecteuler.net/problem=33)  | [033.py](python/033.py) | | **Easy+** | Brute force works but the code was tedious to write.  Assuming a simplified approach made for much simpler code.  | digits, strings | 
+| [034](https://projecteuler.net/problem=34)  | [034.py](python/034.py) | | **Easy+** | Easy brute force since the solution space is small.  | digits, strings | 
