@@ -72,7 +72,8 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [029](https://projecteuler.net/problem=29)  | [029.py](python/029.py) | | **Easy** | Thanks to Python's auto number type, this was trivial to solve, done in less than a minute |
 | [030](https://projecteuler.net/problem=30)  | [030.py](python/030.py) | | **Easy** | Once you estimate an upper bound for this problem, the code is trivial to write.   |
 | [031](https://projecteuler.net/problem=31)  | [031.py](python/031.py) | | **Easy+** | Multipe ways to solve the change problem, using recursion and dynamic programing.   | recursion, dynamic programming | 
-| [032](https://projecteuler.net/problem=32)  | [032.py](python/032.py) | | **Easy+** | Brute force works here since the solution space is small.   | pandigital, divisors | 
-| [033](https://projecteuler.net/problem=33)  | [033.py](python/033.py) | | **Easy+** | Brute force works but the code was tedious to write.  Assuming a simplified approach made for much simpler code.  | digits, strings | 
-| [034](https://projecteuler.net/problem=34)  | [034.py](python/034.py) | | **Easy+** | Easy brute force since the solution space is small.  | digits, strings | 
-| [035](https://projecteuler.net/problem=35)  | [035.py](python/035.py) | | **Easy+** | Simple to test the space by precomputing all primes with a sieve and using a set for speed.    | primes, string cycles | 
+| [032](https://projecteuler.net/problem=32)  | [032.py](python/032.py) | | **Easy** | Brute force works here since the solution space is small.   | pandigital, divisors | 
+| [033](https://projecteuler.net/problem=33)  | [033.py](python/033.py) | | **Easy** | Brute force works but the code was tedious to write.  Assuming a simplified approach made for much simpler code.  | digits, strings | 
+| [034](https://projecteuler.net/problem=34)  | [034.py](python/034.py) | | **Easy** | Easy brute force since the solution space is small.  | digits, strings | 
+| [035](https://projecteuler.net/problem=35)  | [035.py](python/035.py) | | **Easy** | Simple to test the space by precomputing all primes with a sieve and using a set for speed.    | primes, string cycles | 
+| [036](https://projecteuler.net/problem=36)  | [036.py](python/036.py) | | **Easy** | A simple test for each possible number.   | palindromes, binary | 
