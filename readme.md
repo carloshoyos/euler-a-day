@@ -77,3 +77,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [034](https://projecteuler.net/problem=34)  | [034.py](python/034.py) | | **Easy** | Easy brute force since the solution space is small.  | digits, strings | 
 | [035](https://projecteuler.net/problem=35)  | [035.py](python/035.py) | | **Easy** | Simple to test the space by precomputing all primes with a sieve and using a set for speed.    | primes, string cycles | 
 | [036](https://projecteuler.net/problem=36)  | [036.py](python/036.py) | | **Easy** | A simple test for each possible number.   | palindromes, binary | 
+| [037](https://projecteuler.net/problem=37)  | [037.py](python/037.py) | | **Easy** | Implemented with a sieve, but a quick prime evaluation might be as fast with less code | primes, cycles | 
