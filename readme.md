@@ -78,3 +78,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [035](https://projecteuler.net/problem=35)  | [035.py](python/035.py) | | **Easy** | Simple to test the space by precomputing all primes with a sieve and using a set for speed.    | primes, string cycles | 
 | [036](https://projecteuler.net/problem=36)  | [036.py](python/036.py) | | **Easy** | A simple test for each possible number.   | palindromes, binary | 
 | [037](https://projecteuler.net/problem=37)  | [037.py](python/037.py) | | **Easy** | Implemented with a sieve, but a quick prime evaluation might be as fast with less code | primes, cycles | 
+| [038](https://projecteuler.net/problem=38)  | [038.py](python/038.py) | | **Easy** | Solution space is small enough to just test all options.   | number, concatenation, | 
