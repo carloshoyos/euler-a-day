@@ -81,3 +81,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [038](https://projecteuler.net/problem=38)  | [038.py](python/038.py) | | **Easy** | Solution space is small enough to just test all options.   | number, concatenation, | 
 | [039](https://projecteuler.net/problem=39)  | [039.py](python/039.py) | | **Easy** | Brute force works, but limiting the solution space by noticing answer can only be even improces execution time.   | pitagorean triplets | 
 | [040](https://projecteuler.net/problem=40)  | [040.py](python/040.py) | | **Easy** | Python has no problem handling this very long string.   | integer concatenation | 
+| [041](https://projecteuler.net/problem=41)  | [041.py](python/041.py) | | **Easy** | Two approaches (generate all primes or all pandigital numbers) but only one will work given the size of the solution space.   | pandigital permutations primes| 
