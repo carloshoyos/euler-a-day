@@ -84,3 +84,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [041](https://projecteuler.net/problem=41)  | [041.py](python/041.py) | | **Easy** | Two approaches (generate all primes or all pandigital numbers) but only one will work given the size of the solution space.   | pandigital permutations primes| 
 | [042](https://projecteuler.net/problem=42)  | [042.py](python/042.py) | | **Easy** | Simple string count manipulation.   | triange numbers, string value | 
 | [043](https://projecteuler.net/problem=43)  | [043.py](python/043.py) | | **Easy** | Simple string count manipulation.   | triange numbers, string value | 
+| [044](https://projecteuler.net/problem=44)  | [044.py](python/044.py) | | **Easy** | Reuse pandigital permutations.  Brute force works about 4 seconds, there are ways to reduce the solution space to improve performance   | pandigital permutations primes | 
