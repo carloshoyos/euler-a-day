@@ -85,3 +85,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [042](https://projecteuler.net/problem=42)  | [042.py](python/042.py) | | **Easy** | Simple string count manipulation.   | triange numbers, string value | 
 | [043](https://projecteuler.net/problem=43)  | [043.py](python/043.py) | | **Easy** | Reuse pandigital permutations.  Brute force works about 4 seconds, there are ways to reduce the solution space to improve performance   | pandigital permutations primes | 
 | [044](https://projecteuler.net/problem=44)  | [044.py](python/044.py) | | **Easy** | Reuse pandigital permutations.  Brute force works about 4 seconds, there are ways to reduce the solution space to improve performance   | pentagonal numbers, combinantions | 
+| [045](https://projecteuler.net/problem=45)  | [045.py](python/045.py) | | **Easy** | Brute force  is very fast when precalculating the numbers in a set  | pentagonal numbers | 
