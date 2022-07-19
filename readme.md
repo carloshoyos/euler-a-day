@@ -87,3 +87,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [044](https://projecteuler.net/problem=44)  | [044.py](python/044.py) | | **Easy** | Reuse pandigital permutations.  Brute force works about 4 seconds, there are ways to reduce the solution space to improve performance   | pentagonal numbers, combinantions | 
 | [045](https://projecteuler.net/problem=45)  | [045.py](python/045.py) | | **Easy** | Brute force  is very fast when precalculating the numbers in a set  | pentagonal numbers | 
 | [046](https://projecteuler.net/problem=46)  | [046.py](python/046.py) | | **Easy** | Brute force iteration and test (using itertools or sequentially)  | primes, goldbach square | 
+| [047](https://projecteuler.net/problem=47)  | [047.py](python/047.py) | | **Easy** | Reusing problem 3, need a fast factorization to test all combinations  | factorization, pollard factorization | 
