@@ -27,6 +27,13 @@ How many values of nCr(n,r), for 1 =< n =< 100, are greater than one-million?
 #   -  C(line, i) = C(line, i-1) * (line - i + 1) / i    
 #   store the Pascal’s triangle in a matrix then the value of nCr will be the value of the cell at nth row and rth column. 
 
+# Performance: python handles 100 rows fine with both brute force and formula
+# by 500 it is struggling though
+# n     formula     brute force
+# 100   
+# 500 
+
+
 import math 
 def calculateCombGreaterThan_Bruteforce(upper_limit = 1000000, n=100):
     greater_count = 0 # greater than a million 
