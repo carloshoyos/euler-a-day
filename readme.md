@@ -94,3 +94,5 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [051](https://projecteuler.net/problem=51)  | [051.py](python/051.py) | | **Easy** | brute force approach possible, but the problem won't scale. Nice optimization to narrow down the number of replacements / solution space.   | sieve, primes, replacemeent, same digits| 
 | [052](https://projecteuler.net/problem=52)  | [052.py](python/052.py) | | **Easy** | super easy, using set to calculate unique digits of a number | digits of number, cycles| 
 | [053](https://projecteuler.net/problem=53)  | [053.py](python/053.py) | | **Easy** | Surprising python was able to calculate with brute force, although a binomial formula scales better.   | combinatorics, factorial, pascal triangle, binomical| 
+| 54 | - | | **Easy** | ... pending, this is a tedious / long and non mathematical, although some interesting data structures can be used  | | 
+| [055](https://projecteuler.net/problem=55)  | [055.py](python/055.py) | | **Easy** | Very simple iteration, not many ways to optimize. Solved in pythonic and non pythinc style.   | Lychrel, palindromic| 
