@@ -96,3 +96,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [053](https://projecteuler.net/problem=53)  | [053.py](python/053.py) | | **Easy** | Surprising python was able to calculate with brute force, although a binomial formula scales better.   | combinatorics, factorial, pascal triangle, binomical| 
 | 54 | - | | **Easy** | ... pending, this is a tedious / long and non mathematical, although some interesting data structures can be used  | | 
 | [055](https://projecteuler.net/problem=55)  | [055.py](python/055.py) | | **Easy** | Very simple iteration, not many ways to optimize. Solved in pythonic and non pythinc style.   | Lychrel, palindromic| 
+| [056](https://projecteuler.net/problem=56)  | [056.py](python/056.py) | | **Easy** | While multiplication leads to very large numbers, python auto type made this trivial using brute force   | exponents, digits| 
