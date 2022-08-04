@@ -62,7 +62,7 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [019](https://projecteuler.net/problem=19)  | [019.py](python/019.py) | | **Easy** | Super easy to code although not good, could be generalized  | 
 | [020](https://projecteuler.net/problem=20)  | [020.py](python/020.py) | | **Easy** | Python makes this so easy / one liner in 2 minutes coding time. Super easy.   | 
 | [021](https://projecteuler.net/problem=21)  | [021.py](python/021.py) | | **Easy** | A simple brute force approach worked better than my initial idea of using primes and divisors from problem 12. Sometimes easier brute force is better.   | 
-| [022](https://projecteuler.net/problem=22)  | [022.py](python/022.py) | | **Easy** | Easy iteration coding - example of c style vs pythonic coding.   | dictionary sorting, unicode character value |
+| [022](https://projecteuler.net/problem=22)  | [022.py](python/022.py) | | **Easy** | Easy iteration coding - example of c style vs pythonic coding.   | dictionary sorting, unicode character value, ascii, ord, file |
 | [023](https://projecteuler.net/problem=23)  | [023.py](python/023.py) | | **Easy** | A good building block came from problem 21.    | divisors | 
 | [024](https://projecteuler.net/problem=24)  | [024.py](python/024.py) | | **Easy** | Two implementations, brute force and deducing a formula. Performance is the same for smaller numbers, but the formula scales much better for large numbers.    | itertools. |
 | [025](https://projecteuler.net/problem=25)  | [025.py](python/025.py) | | **Easy** | Super simple, reusing Fibonacci formula and a counter. | Fibonacci |
@@ -80,9 +80,9 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [037](https://projecteuler.net/problem=37)  | [037.py](python/037.py) | | **Easy** | Implemented with a sieve, but a quick prime evaluation might be as fast with less code | primes, cycles | 
 | [038](https://projecteuler.net/problem=38)  | [038.py](python/038.py) | | **Easy** | Solution space is small enough to just test all options.   | number, concatenation, | 
 | [039](https://projecteuler.net/problem=39)  | [039.py](python/039.py) | | **Easy** | Brute force works, but limiting the solution space by noticing answer can only be even improces execution time.   | pitagorean triplets | 
-| [040](https://projecteuler.net/problem=40)  | [040.py](python/040.py) | | **Easy** | Python has no problem handling this very long string.   | integer concatenation | 
+| [040](https://projecteuler.net/problem=40)  | [040.py](python/040.py) | | **Easy** | Python has no problem handling this very long string.   | integer concatenation, file | 
 | [041](https://projecteuler.net/problem=41)  | [041.py](python/041.py) | | **Easy** | Two approaches (generate all primes or all pandigital numbers) but only one will work given the size of the solution space.   | pandigital permutations primes| 
-| [042](https://projecteuler.net/problem=42)  | [042.py](python/042.py) | | **Easy** | Simple string count manipulation.   | triange numbers, string value | 
+| [042](https://projecteuler.net/problem=42)  | [042.py](python/042.py) | | **Easy** | Simple string count manipulation.   | triange numbers, string value, ascii, ord | 
 | [043](https://projecteuler.net/problem=43)  | [043.py](python/043.py) | | **Easy** | Reuse pandigital permutations.  Brute force works about 4 seconds, there are ways to reduce the solution space to improve performance   | pandigital permutations primes | 
 | [044](https://projecteuler.net/problem=44)  | [044.py](python/044.py) | | **Easy** | Reuse pandigital permutations.  Brute force works about 4 seconds, there are ways to reduce the solution space to improve performance   | pentagonal numbers, combinantions | 
 | [045](https://projecteuler.net/problem=45)  | [045.py](python/045.py) | | **Easy** | Brute force  is very fast when precalculating the numbers in a set  | pentagonal numbers | 
@@ -97,3 +97,5 @@ Solving these problems requires:  1- Understand the math problem and translating
 | 54 | - | | **Easy** | ... pending, this is a tedious / long and non mathematical, although some interesting data structures can be used  | | 
 | [055](https://projecteuler.net/problem=55)  | [055.py](python/055.py) | | **Easy** | Very simple iteration, not many ways to optimize. Solved in pythonic and non pythinc style.   | Lychrel, palindromic| 
 | [056](https://projecteuler.net/problem=56)  | [056.py](python/056.py) | | **Easy** | While multiplication leads to very large numbers, python auto type made this trivial using brute force   | exponents, digits| 
+| [057](https://projecteuler.net/problem=57)  | [057.py](python/057.py) | | **Easy** | Easy once you find a formula for the expanding fraction.  |expanding fractions | 
+| [058](https://projecteuler.net/problem=58)  | [058.py](python/058.py) | | **Easy** | Easy once you find a formula for the diagonals in the spiral  |spirals, primes | 
