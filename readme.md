@@ -73,7 +73,7 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [030](https://projecteuler.net/problem=30)  | [030.py](python/030.py) | | **Easy** | Once you estimate an upper bound for this problem, the code is trivial to write.   |
 | [031](https://projecteuler.net/problem=31)  | [031.py](python/031.py) | | **Easy+** | Multipe ways to solve the change problem, using recursion and dynamic programing.   | recursion, dynamic programming | 
 | [032](https://projecteuler.net/problem=32)  | [032.py](python/032.py) | | **Easy** | Brute force works here since the solution space is small.   | pandigital, divisors | 
-| [033](https://projecteuler.net/problem=33)  | [033.py](python/033.py) | | **Easy** | Brute force works but the code was tedious to write.  Assuming a simplified approach made for much simpler code.  | digits, strings | 
+| [033](https://projecteuler.net/problem=33)  | [033.py](python/033.py) | | **Easy** | Brute force works but the code was tedious to write.  Assuming a simplified approach made for much simpler code.  | digits, strings, fractions | 
 | [034](https://projecteuler.net/problem=34)  | [034.py](python/034.py) | | **Easy** | Easy brute force since the solution space is small.  | digits, strings | 
 | [035](https://projecteuler.net/problem=35)  | [035.py](python/035.py) | | **Easy** | Simple to test the space by precomputing all primes with a sieve and using a set for speed.    | primes, string cycles | 
 | [036](https://projecteuler.net/problem=36)  | [036.py](python/036.py) | | **Easy** | A simple test for each possible number.   | palindromes, binary | 
@@ -105,3 +105,4 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [062](https://projecteuler.net/problem=62)  | [062.py](python/062.py) | | **Easy-15%** | A good example of how when a first obvious approach won't work, but there's a simple alternative that performs really well.    | cubes, digits, combinations | 
 | [063](https://projecteuler.net/problem=63)  | [063.py](python/063.py) | after the last 3, this one was very easy. Just had to narrow down the solution space, and was able to brute force it| **Easy** |    | digits, powers | 
 | [064](https://projecteuler.net/problem=64)  | [064.py](python/064.py) | | **Easy-20%** |  This one took a few days to come up with a formula. Pen and paper and wikipedia.  | continuous fractions, squares | 
+| [065](https://projecteuler.net/problem=65)  | [065.py](python/065.py) | | **Easy-20%** |  I thougth writing a continuous function generator  in the previous problem would help, but this was a different approach.  Still, a lot of the lifting was done before, so it wasn't as hard.  | continuous fractions, squares, exp | 
