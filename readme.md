@@ -117,7 +117,7 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [074](https://projecteuler.net/problem=74)  | [074.py](python/074.py) | | **Easy-15%** |  Easy problem can be solved brute force, but creating a cache of precomputed chains was 20x faster.   | sum of the factorial of digits, chains, caching  |
 | [075](https://projecteuler.net/problem=75)  | [075.py](python/075.py) | | **Easy-25%** |  This was a real easy problem for a 25% difficulty. Just had to find the right parametrization formula (euclid formula).  | pitagorean triplets, euclid formula for pitagorean triplets, integer squares  |
 | [076](https://projecteuler.net/problem=76)  | [076.py](python/076.py) | | **Easy-10%** |  love this problem, many ways to solve (dynamic programming, recursion). Problem 31 solved a simpler version of this.   | partition function, dynamic programming, counting, ways to add up to an integer  |
-| [077](https://projecteuler.net/problem=77)  | [077.py](python/077.py) | | **Easy-10%** |  pending  | ,  |
+| [077](https://projecteuler.net/problem=77)  | [077.py](python/077.py) | | **Easy-25%** |  Another version of 77, great pen and paper exercise to try multiple approaches.  Not sure why this one is 25% difficulty when 76 was 10%  | partition function, dynamic programming, counting, ways to add up to an integer  |
 | [078](https://projecteuler.net/problem=78)  | [078.py](python/078.py) | | **Easy-10%** |  pending  | ,  |
 | [079](https://projecteuler.net/problem=79)  | [079.py](python/079.py) | | **Easy-10%** |  pending  | ,  |
 | [080](https://projecteuler.net/problem=80)  | [080.py](python/080.py) | | **Easy-10%** |  pending  | ,  |
