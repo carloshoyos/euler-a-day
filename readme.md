@@ -120,7 +120,7 @@ Solving these problems requires:  1- Understand the math problem and translating
 | [077](https://projecteuler.net/problem=77)  | [077.py](python/077.py) | | **Easy-25%** |  Another version of 77, great pen and paper exercise to try multiple approaches.  Not sure why this one is 25% difficulty when 76 was 10%  | partition function, dynamic programming, counting, ways to add up to an integer  |
 | [078](https://projecteuler.net/problem=78)  | [078.py](python/078.py) | | **Easy-30%** |  First 30% difficulty problem. This one was hard unless you knew the partition generation function.  Was able to solve with partition in a few seconds, or reusing problem 76 in 5 minutes.   | euler partition function, dynamic programing, cache  |
 | [079](https://projecteuler.net/problem=79)  | [079.py](python/079.py) | | **Easy-5%** |  For a 5% problem this one wasn't as easy.  Two ways to solve, generate and test all candidates, and evaluate / iterate  rules. A big assumption was that the rules were deterministic and that each digit was only use onces  | passcode derivagtion, rules, substrings, ,  |
-| [080](https://projecteuler.net/problem=80)  | [080.py](python/080.py) | | **Easy-10%** |  pending  | ,  |
+| [080](https://projecteuler.net/problem=80)  | [080.py](python/080.py) | | **Easy-20%** |  Straightforward. Amazing what good precision Pyhton can be set to have.   | precision, irrational numbers, square roots  |
 | [081](https://projecteuler.net/problem=81)  | [081.py](python/081.py) | | **Easy-10%** |  pending  | ,  |
 | [082](https://projecteuler.net/problem=82)  | [082.py](python/082.py) | | **Easy-10%** |  pending  | ,  |
 | [083](https://projecteuler.net/problem=83)  | [083.py](python/083.py) | | **Easy-10%** |  pending  | ,  |
